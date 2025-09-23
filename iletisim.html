@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim</title>
+  <link rel="stylesheet" href="webodev.css">
+</head>
+<body>
+  <header class="hero">  
+    <div class="container">  
+        <h1>Miel</h1>  
+        <p class="tagline">Pâtisserie</p> 
+        
+
+    </div>  
+</header> 
+<section class="category-menu">
+    <nav>
+        <ul>
+            <li><a href="pastalar.html">Pasta Çeşitleri</a></li>
+            <li><a href="tatlilar.html">Tatlılar</a></li>
+            <li><a href="borekler.html">Börek Çeşitleri Ve Tuzlular </a></li>
+            <li><a href="kurabiyeler.html">Kurabiyeler</a></li>
+            
+        </ul>
+    </nav>
+</section> 
+
+  <main class="contact-container">
+    <div class="contact-form">
+      <h2>İletişim Formu</h2>
+      <form action="form-submit.php" method="POST">
+        <label for="name">Ad Soyad:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı ve soyadınızı yazınız" required>
+
+        <label for="email">E-Posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-posta adresinizi yazınız" required>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" placeholder="Mesajınızı buraya yazınız..." rows="5" required></textarea>
+
+        <button type="submit" class="send-button">Gönder</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h2>İletişim Bilgileri</h2>
+      <p><strong>Adres:</strong> Tatlı Sokak No:10, Lezzet Şehri</p>
+      <p><strong>Telefon:</strong> +90 555 123 4567</p>
+      <p><strong>E-Posta:</strong> <a href="mailto:info@pastanem.com">miel@pastanem.com</a></p>
+      <p><strong>Çalışma Saatleri:</strong> Hafta içi 08:00 - 22:00, Hafta sonu 09:00 - 23:00</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5068.372000231861!2d30.58977249159816!3d37.45497998379605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c44139caa9127d%3A0x5b063b82e6b2374e!2sBucak%20Ferah%20Pastanesi!5e0!3m2!1str!2str!4v1734349700846!5m2!1str!2str" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Pastanem. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
